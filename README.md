@@ -1,10 +1,13 @@
+![alt text](https://media.discordapp.net/attachments/719985228805832744/721704602600210501/unknown.png)
+
 
 # Brickster!
 
 Brickster is a easy and Simple Brick-hill API Wrapper made in C#-
 
 ## Download Brickster
-https://www.nuget.org/packages/Brickster/1.0.0#
+
+https://www.nuget.org/packages/Brickster/
 
 ![Nuget](https://img.shields.io/nuget/dt/Brickster?color=%23ff&label=Downloads&logo=C&logoColor=%23fff&style=plastic)
 
@@ -35,6 +38,13 @@ Shop shp = new Shop();
 Clan variable:
 ```csharp
 Clan cln = new Clan();
+```
+
+It's also required to install the Newtonsoft.Json NuGet package.
+https://www.nuget.org/packages/Newtonsoft.Json/
+Once installed you should be able to add this at the top of your code:
+```csharp
+using using Newtonsoft.Json;
 ```
 
 ---
@@ -147,6 +157,14 @@ Latest Shirt Uploaded:
 30 Bits
 ```
 ---
+### Clan Arguments
+```csharp
+public string id {get; set;}
+public string name {get; set;}
+public string tag {get; set;}
+public string creationdate {get; set;}
+public string title {get; set;}
+```
 ### Clan Functions
 ClanInfo
   ```csharp
